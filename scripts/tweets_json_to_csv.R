@@ -2,10 +2,11 @@
 
 library(jsonlite)
 library(plyr)
+library(xlsx)
 library(csv)
 library("data.table")
 
-json1 <- lapply(readLines("election.json"), fromJSON)
+json1 <- lapply(readLines("election-filter-6.json"), fromJSON)
 
 id<-list()####
 for(i in 1:length(json1)){
