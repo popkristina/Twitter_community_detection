@@ -7,15 +7,16 @@ Assumption: On Twitter it is highly likely that people with similar political in
 same politicians, or people with mutual opinion on something will share each other’s posts as they express 
 similar opinion.
 
-Target: US 2016 presidential elections.  
+Target tweets: US 2016 presidential elections.  
 
 ## 2. Data
 
 Tweets retrieved from [Harvard Dataverse](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/PDI7IN).
 Dataset originally contains a huge corpus of ~280 million tweet ids, grouped into separate collections. 
 
-For the purpose of this project, few thousand tweets were downloaded from the id collections election filter 1 
-through 6. The tweets from the six different collections were retrieved with the Hydrator tool. 
+Tweets used from dataset: random selection from id collections election filter 1 through 6.
+
+The tweets from the six different collections were retrieved with the Hydrator tool. 
 Since Twitter gives away its data in json format, the tweets were first processed with R and converted in csv 
 format.
 
