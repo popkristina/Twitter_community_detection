@@ -66,4 +66,4 @@ Assumption: People tend to group themselves according to opinions by interacting
 
 Communities are detected with Louvain community detection algorithm. Python implementation of [Louvain](https://python-louvain.readthedocs.io/en/latest/) compatible with NetworkX used.
 
-The idea of the algorithm lies in the basis of modularity calculation, as the metrics used to measure the quality of the division. Modularity measure is a scalar value in the interval [-1, 1] and measures the density of the links inside the communities as compared to links between communities.
+It finds the partitions iteratively, first starts as with every node as its own community, and then based on modularity calculation, in each next iteration it moves the nodes to a new community in order to maximize the modularity in that community. If there is no change in modularity, then the node stays in its own community.
