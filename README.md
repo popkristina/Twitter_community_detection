@@ -18,10 +18,6 @@ Tweets used from dataset: random selection from id collections election filter 1
 
 [Hydrator tool](https://github.com/DocNow/hydrator): Used to retrieve tweets from tweet ids
 
-
-
-### Data Processing
-
 Since Twitter gives away its data in json format, the tweets were first processed with R and converted in csv 
 format.
 
