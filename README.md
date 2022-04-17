@@ -41,3 +41,7 @@ Resulting: directed graph with ‘user_screen’ as source, ‘original_author�
 
 Average in-degree and out-degree of the graph can be calculated.
 
+### Power Laws
+
+In its definition, it tells that the number of web that has k in-links is approximately 1/k^2.
+
