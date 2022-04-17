@@ -47,4 +47,10 @@ In its definition, it tells that the number of web that has k in-links is approx
 
 ### Friendship Paradox
 
-This phenomenon examined by Scott Feld which states that one person’s friends have more friends in average than he/she has. This was proven to be true for Facebook friendships, Tweeter follow connections, but also in real-life situations. For example, your partners would have more partners in average than you etc.1 We try to examine the friendship paradox with the retweet network and see if it is valid here. Since it contains a certain number of high-profile nodes that have been retweeted highly above the average, the friendship paradox would not apply to the entire network.
+This phenomenon examined by Scott Feld which states that one person’s friends have more friends in average than he/she has. 
+This was proven to be true for Facebook friendships, Tweeter follow connections, 
+but also in real-life situations. 
+
+### Page Rank
+
+A link analysis algorithm that ranks web pages by importance and authority. The page rank of a page is calculated recursively and it depends on number of page rank metrics of all other pages that link to it.
