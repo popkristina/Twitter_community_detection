@@ -16,7 +16,7 @@ Dataset originally contains a huge corpus of ~280 million tweet ids, grouped int
 
 Tweets used from dataset: random selection from id collections election filter 1 through 6.
 
-[Hydrator tool](https://github.com/DocNow/hydrator): Used to retrieve tweets from tweet ids
+[Hydrator tool](https://github.com/DocNow/hydrator) used to retrieve tweets from tweet ids
 
 Since Twitter gives away its data in json format, the tweets were first processed with R and converted in csv 
 format.
@@ -33,4 +33,11 @@ directed link from user Y to user X.
 
 Resulting: directed graph with ‘user_screen’ as source, ‘original_author’ as target and ‘retweet’ as a mapping function. 
 
-![Alt text](/plots/rt_graph.png "Optional title")
+![Retweet relation](/plots/rt_graph.png "Retweet relationship")
+
+## Network Properties
+
+### Node Degrees
+
+Average in-degree and out-degree of the graph can be calculated.
+
