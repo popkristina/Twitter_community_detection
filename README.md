@@ -62,3 +62,8 @@ PageRank calculated with networkx scipy implementation.
 
 ## Community Detection
 
+Assumption: People tend to group themselves according to opinions by interacting with some users, therefore forming communities. 
+
+Communities are detected with Louvain community detection algorithm. Python implementation of [Louvain](https://python-louvain.readthedocs.io/en/latest/) compatible with NetworkX used.
+
+The idea of the algorithm lies in the basis of modularity calculation, as the metrics used to measure the quality of the division. Modularity measure is a scalar value in the interval [-1, 1] and measures the density of the links inside the communities as compared to links between communities.
