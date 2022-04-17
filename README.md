@@ -25,7 +25,16 @@ Tweets used from dataset: random selection from id collections election filter 1
 Since Twitter gives away its data in json format, the tweets were first processed with R and converted in csv 
 format.
 
-### Data Description
+For this project, a subset dataset of 162,520 entries and 13 column attributes is used. 
 
-The resulting dataset contains a total of 162,520 entries and 13 column attributes. We will focus on the ‘user_screen’ and ‘original_author’ attributes for network creation. The network is created with the networkx package for Python, where each node is a user, and the edges are the ‘retweet’ connections between the users. This means, if the tweet was originally tweeted by user X, and retweeted by user Y; we will have a directed link from user Y to user X. In other words, 
-we create a directed graph with ‘user_screen’ as source and ‘original_author’ as target, where the map function f is ‘retweet’. First we remove the entries where the ‘original_author’ field is blank (they are not retweeted) as we only examine the retweet relationship between users.
+## Network Creation
+
+[Networkx](https://networkx.org/) package for Python.
+
+Nodes for network creation are the ‘user_screen’ and ‘original_author’ attributes. Each node is a user screen name. Edges are
+the 'retweet' connections between the users. If the tweet was originally tweeted by user X, and retweeted by user Y, they form a 
+directed link from user Y to user X. 
+
+Resulting: directed graph with ‘user_screen’ as source, ‘original_author’ as target and ‘retweet’ as a mapping function. 
+
+![Alt text](/plots/rt_graph.png "Optional title")
