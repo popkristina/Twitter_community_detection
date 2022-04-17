@@ -45,4 +45,6 @@ Average in-degree and out-degree of the graph can be calculated.
 
 In its definition, it tells that the number of web that has k in-links is approximately 1/k^2.
 
-![Power Law](/plots/power_law.png "Power law" =250x250)
+### Friendship Paradox
+
+This phenomenon examined by Scott Feld which states that one person’s friends have more friends in average than he/she has. This was proven to be true for Facebook friendships, Tweeter follow connections, but also in real-life situations. For example, your partners would have more partners in average than you etc.1 We try to examine the friendship paradox with the retweet network and see if it is valid here. Since it contains a certain number of high-profile nodes that have been retweeted highly above the average, the friendship paradox would not apply to the entire network.
