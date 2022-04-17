@@ -54,3 +54,11 @@ but also in real-life situations.
 ### Page Rank
 
 A link analysis algorithm that ranks web pages by importance and authority. The page rank of a page is calculated recursively and it depends on number of page rank metrics of all other pages that link to it.
+
+Calculate the PR for the Twitter profiles & and order them by importance. 
+
+PageRank calculated with networkx scipy implementation.
+
+
+## Community Detection
+
