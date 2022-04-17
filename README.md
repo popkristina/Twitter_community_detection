@@ -45,4 +45,4 @@ Average in-degree and out-degree of the graph can be calculated.
 
 In its definition, it tells that the number of web that has k in-links is approximately 1/k^2.
 
-![Power Law](/plots/power_law.png "Power law")
+![Power Law](/plots/power_law.png "Power law" = =250x250)
